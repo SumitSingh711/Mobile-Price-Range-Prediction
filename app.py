@@ -23,12 +23,21 @@ cost_mapping = {
 # web application
 st.set_page_config(
     page_title='Mobile Phone Price Predictor',
-    page_icon='📱'
+    page_icon='📱',
 )
-st.title("Mobile Phone Price Predictor")
 
-st.info('This app predicts mobile phone price')
+st.title(" 📱 Mobile Phone Price Predictor")
 
+st.write("""
+    Welcome to the Mobile Price Range Prediction app. 
+    Here, you can predict the price range of a mobile phone based on its features. 
+    """)
+
+st.subheader("About")
+st.info("This application predicts the price range of mobile phones based on various features such as RAM, battery power, screen size, and more. It uses machine learning models to perform these predictions and provides insights into the model.")
+
+
+st.subheader("Input Features")
 battery_power = st.number_input(
     "**Battery power** *(mAh)*",
     min_value=100,  # Minimum year
@@ -171,6 +180,7 @@ wifi = st.selectbox(
      options=X_train.wifi.unique()
 )
 
+
 X_new = pd.DataFrame(dict(
 	battery_power = [battery_power],
 	blue = [blue],
@@ -203,4 +213,6 @@ if st.button('Predict Price Range'):
     cost_category = cost_mapping[pred[0]]
 
     st.success(f"The predicted mobile phone cost category is: **{cost_category}**")
+
+import streamlit as st
 
