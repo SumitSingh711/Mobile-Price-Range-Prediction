@@ -9,7 +9,8 @@ To achieve this, I employed a systematic approach that involved several critical
 
 First, I explored and preprocessed the data, ensuring that all features were appropriately scaled and encoded for modeling. 
 I then applied various classification algorithms to identify the most effective one for this task. 
-This process included evaluating model performance using metrics such as accuracy, precision, recall, and F1 score, as well as performing cross-validation to ensure robustness. 
-After selecting the best-performing algorithm, I deployed the model on a server using Streamlit, creating an interactive web application where users can input mobile specifications and receive real-time price range predictions.
+This process included evaluating model performance using metrics such as accuracy, precision, recall, and F1 score, as well as performing cross-validation to ensure robustness.
+
+After selecting the best-performing algorithm, I deployed the model on a server using Streamlit, creating an interactive web application where users can input mobile specifications and receive real-time price range predictions. Link for the web application is in top.
 
 This end-to-end approach not only highlights the effectiveness of different algorithms but also demonstrates the practical application of machine learning in real-world scenarios.
