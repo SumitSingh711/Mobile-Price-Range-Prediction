@@ -14,8 +14,7 @@ This process included evaluating model performance using metrics such as accurac
 After selecting the best-performing algorithm, I deployed the model on a server using Streamlit, creating an interactive web application where users can input mobile specifications and receive real-time price range predictions. Link for the web application is in top.
 
 ![image](https://github.com/user-attachments/assets/f647fea1-bc2f-403d-800f-f6c75a316f23)
-![image](https://github.com/user-attachments/assets/ad696c7b-2044-4163-a767-2ada0664ecb8)
-
+![image](https://github.com/user-attachments/assets/ecdc6d86-8bad-4ea1-aa62-73771cd4a2b6)
 
 
 This end-to-end approach not only highlights the effectiveness of different algorithms but also demonstrates the practical application of machine learning in real-world scenarios.
