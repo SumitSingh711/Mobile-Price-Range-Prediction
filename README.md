@@ -23,13 +23,15 @@ Encoding categorical variables where needed.
 Scaling numerical features to ensure proper model performance.
 Key features used in this prediction model include:
 
-Battery Power
-RAM
-Internal Memory
-Screen Size
-Pixel Resolution
-Camera Quality
-Mobile Weight
+<ul>
+<li>Battery Power</li>
+<li>RAM</li>
+<li>Internal Memory</li>
+<li>Screen Size</li>
+<li>Pixel Resolution</li>
+<li>Camera Quality</li>
+<li>Mobile Weight</li>
+</ul>
 These features were preprocessed to ensure they were in a form that machine learning models could effectively learn from.
 
 <h4>2. Model Selection and Training</h4>
