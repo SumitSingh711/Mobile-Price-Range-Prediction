@@ -5,6 +5,7 @@ You can access the mobile price range predictor web application [here](https://m
 
 <h3>Objective</h3>
 The goal of this project is to categorize mobile phones into one of four distinct price ranges:
+
 <ul>
 <li>Low cost</li>
 <li>Medium cost</li>
