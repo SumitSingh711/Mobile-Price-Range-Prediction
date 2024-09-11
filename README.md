@@ -36,18 +36,20 @@ These features were preprocessed to ensure they were in a form that machine lear
 
 <h4>2. Model Selection and Training</h4>
 Multiple machine learning algorithms were applied to classify mobile phones into one of the four price categories. These algorithms include:
-
-Random Forest Classifier
-Support Vector Machine (SVM)
-Logistic Regression
-K-Nearest Neighbors (KNN)
-Decision Tree
+<ul>
+<li>Random Forest Classifier</li>
+<li>Support Vector Machine (SVM)</li>
+<li>Logistic Regression</li>
+<li>K-Nearest Neighbors (KNN)</li>
+<li>Decision Tree</li>
+</ul>
 The performance of each model was assessed using various evaluation metrics, such as:
-
-Accuracy
-Precision
-Recall
-F1 Score
+<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall</li>
+<li>F1 Score</li>
+</ul>
 Cross-validation was applied to ensure the model's stability and avoid overfitting.
 
 <h4>3. Model Deployment</h4>
@@ -70,8 +72,10 @@ Real-Time Prediction: The app offers instant results based on user inputs.
 This project demonstrates the potential of machine learning in price prediction tasks. By analyzing mobile phone features, the model can predict the price range, offering practical utility for consumers and businesses alike. The end-to-end approach—from data preprocessing to model deployment—highlights the power of machine learning in real-world applications.
 
 <h3>Technologies Used</h3>
-Python
-Pandas, NumPy for data handling and preprocessing
-Scikit-learn for implementing machine learning models
-Streamlit for deploying the app
-Matplotlib, Seaborn for data visualization
+<ul>
+<li>Python</li>
+<li>Pandas, NumPy for data handling and preprocessing</li>
+<li>Scikit-learn for implementing machine learning models</li>
+<li>Streamlit for deploying the app</li>
+<li>Matplotlib, Seaborn for data visualization</li>
+</ul>
