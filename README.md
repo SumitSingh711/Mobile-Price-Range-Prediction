@@ -5,11 +5,12 @@ You can access the mobile price range predictor web application [here](https://m
 
 <h3>Objective</h3>
 The goal of this project is to categorize mobile phones into one of four distinct price ranges:
-
-<ul>Low cost
-<ul>Medium cost
-<ul>High cost
-<ul>Very high cost
+<ul>
+<li>Low cost</li>
+<li>Medium cost</li>
+<li>High cost</li>
+<li>Very high cost</li>
+</ul>
 By analyzing different technical specifications of mobile phones, the model predicts the price category, enabling users to estimate the price range based on the phone's features.
 
 <h3>Approach</h3>
