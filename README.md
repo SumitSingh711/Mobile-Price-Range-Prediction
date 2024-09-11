@@ -1,4 +1,4 @@
-<h1>Mobile Price Range Prediction</h1>
+<h1>Mobile Price Range Prediction Project</h1>
 
 [Web Application](https://mobile-price-range-prediction-tquanbngnsmgqz6gejkcnd.streamlit.app/)
 
